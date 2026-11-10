@@ -157,7 +157,9 @@ function setupDialogs(lenis: Lenis | undefined, reduced: boolean, onCleanup: (()
     lenis?.stop();
     lock();
     const card = d.querySelector<HTMLElement>("[data-dialog-card]");
-    card?.focus();
+    // No scroll on focus: the card can still sit off-screen (the side panel parks right of the screen after it
+    // closes). iOS Safari would scroll the dialog sideways to reveal it, then snap back as the slide-in runs.
+    card?.focus({ preventScroll: true });
     if (reduced) return;
     // data-dialog="side": the card slides in from the right edge instead of rising in the middle.
     const side = d.dataset.dialog === "side";

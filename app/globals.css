@@ -1049,6 +1049,9 @@ header.on-dark .link-o:focus-visible {
   height: 100%;
   max-height: none;
   margin: 0;
+  /* The dialog box never scrolls itself (the card scrolls its own content): an off-screen card during the slide
+     can't pull it sideways. clip, not hidden: a hidden box can still be scrolled by focus, a clipped one can't. */
+  overflow: clip;
   padding: 1rem;
   border: 0;
   background: transparent;
