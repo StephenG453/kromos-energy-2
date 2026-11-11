@@ -888,7 +888,7 @@ export function Grid({ content }: { content: Content }) {
   return (
     <section id="rede" aria-labelledby="rede-title" className="dark scroll-mt-16 bg-night text-canvas" data-tone="dark">
       <div className="grid-band">
-        {/* Transmission towers: what TGI builds and leases. Framed on the crossarms, since the band is wide and short. */}
+        {/* Transmission towers: what Kromos builds and leases. Framed on the crossarms, since the band is wide and short. */}
         <Image src="/images/stock-towers-blue.jpg" alt="" fill sizes="100vw" className="object-cover" style={{ objectPosition: "center 35%" }} />
         <span className="grid-band-shade" aria-hidden />
         <div className={`${wrap} grid-band-copy`}>
@@ -942,7 +942,9 @@ export function Leadership({ content }: { content: Content }) {
       <div className="team-stage" data-slider-stage>
       <div className={`${wrap} pt-[calc(160*var(--u))]`}>
         <Eyebrow>{s.label}</Eyebrow>
-        <div className="mt-[calc(20*var(--u))] flex items-end justify-between gap-8">
+        {/* Phones stack the arrows under the summary (right-aligned, as on the Integration phases): without them the
+            sideways track gives no hint that there are more cards. */}
+        <div className="mt-[calc(20*var(--u))] flex flex-col gap-[calc(32*var(--u))] md:flex-row md:items-end md:justify-between md:gap-8">
           <div>
             <h2 id="lideranca-title" className="int-title max-w-[16em]" data-split>
               {s.title}.
@@ -951,7 +953,7 @@ export function Leadership({ content }: { content: Content }) {
               {s.summary}
             </p>
           </div>
-          <div className="hidden shrink-0 md:flex">
+          <div className="flex shrink-0 justify-end">
             <SliderArrows prev={s.prev} next={s.next} />
           </div>
         </div>

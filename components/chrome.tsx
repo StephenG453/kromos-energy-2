@@ -244,14 +244,6 @@ export function ContactPanel({ content }: { content: Content }) {
                     {line}
                   </p>
                 ))}
-                <a
-                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(o.address.join(", "))}`}
-                  className="contact-panel-link mt-[calc(16*var(--u))] inline-block"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {panel.maps}
-                </a>
               </div>
             </address>
           ))}

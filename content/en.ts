@@ -21,7 +21,7 @@ export const en: Content = {
   hero: {
     cta: "Talk to our team",
     image: "/images/hero-sunset.jpg",
-    headline: ["Manageable Results,", "Distributed Generation."],
+    headline: ["Scalable Results,", "Distributed Generation."],
     tagline: ["Renewable Energy facilities for Sale or Lease in North, Central, and South America.", "Architect of Brazil's distributed mini-generation methodology Law No. 14,300/2022"],
     figures: {
       label: "Looking at the numbers",
@@ -29,9 +29,9 @@ export const en: Content = {
     },
     stats: [
       { value: "> 2GWp", label: "In active development" },
-      { value: "> 800MWp", label: "MGD currently deployed across Brazil" },
+      { value: "> 800MWp", label: "MGD deployed or in progress across Brazil" },
       { value: "> $2 Billion USD", label: "Investment in MGD over the last five years" },
-      { value: "Founded in 2018", label: "Offices in Brazil and the United States" },
+      { value: "Founded in 2019", label: "Offices in Brazil and the United States" },
     ],
   },
   ecosystem: {
@@ -177,7 +177,7 @@ export const en: Content = {
     ],
     more: "Explore the program",
     partners:
-      "Ministry of Mines and Energy, signatory. Kromos Energia S.A., develops and operates. Barocco Group, fundraising. TGI, transmission and distribution infrastructure.",
+      "Ministry of Mines and Energy, signatory. Kromos Energia S.A., develops, operates and provides the transmission and distribution infrastructure. Barocco Group, fundraising.",
     ledgerTitle: "Portfolio by state",
     ledgerNote: "CF is the average capacity factor. Maximum of 3 MWac per plant.",
     columns: { state: "State", mw: "MWac", plants: "Plants", cf: "CF", utilities: "Utilities" },
@@ -239,10 +239,10 @@ export const en: Content = {
     index: "07",
     title: "Infrastructure as a Service",
     summary:
-      "TransAmerica Grid Infrastructure leases substations, lines and batteries. The client ties up no capital; the investor receives 25-year contracts.",
+      "Kromos offers leases on substations, lines and batteries. The client ties up no capital; the investor receives 25-year contracts.",
     body: [
       "In 2025, about 20% of potential wind and solar generation was curtailed, a record, with estimated losses of US$ 1.25 billion, largely uncompensated. At the same time, more than 54 GW of data centers and green hydrogen are waiting to connect.",
-      "TGI's answer combines substations leased as a service with battery storage. The battery charges on the midday solar surplus and discharges into the late-afternoon ramp, provides firm capacity and grid stability services, and defers transmission upgrades.",
+      "Kromos owns the substations and battery storage and leases them as one service. The batteries store surplus solar power at midday and release it in the late afternoon, when demand peaks. This keeps supply steady, stabilizes the grid and delays the need for new transmission lines.",
     ],
     stats: [
       { value: "~20%", label: "of potential renewable generation curtailed in 2025" },
@@ -337,7 +337,7 @@ export const en: Content = {
     ],
     email: "info@kromosenergy.com",
     cta: "Contact us",
-    panel: { title: "Contact us", close: "Close", reach: "Get in touch", message: "Message", maps: "View on map" },
+    panel: { title: "Contact us", close: "Close", reach: "Get in touch", message: "Message" },
   },
   manifesto: {
     title: "At a glance",
@@ -403,8 +403,8 @@ export const en: Content = {
     },
   },
   privacy: {
-    draftNote: "Draft for legal review: this text describes how the website works today and has not been approved yet.",
-    updated: "Draft, November 2026",
+    draftNote: "",
+    updated: "Last updated: November 2026",
     sections: [
       {
         title: "Who we are",

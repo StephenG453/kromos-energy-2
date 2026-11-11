@@ -21,7 +21,7 @@ export const pt: Content = {
   hero: {
     cta: "Fale com nosso time",
     image: "/images/hero-sunset.jpg",
-    headline: ["Resultados gerenciáveis,", "geração distribuída."],
+    headline: ["Resultados escaláveis,", "geração distribuída."],
     tagline: ["Instalações de energia renovável para venda ou arrendamento nas Américas do Norte, Central e do Sul.", "Arquiteta da metodologia de minigeração distribuída do Brasil, Lei nº 14.300/2022"],
     figures: {
       label: "Um olhar sobre os números",
@@ -29,9 +29,9 @@ export const pt: Content = {
     },
     stats: [
       { value: "> 2GWp", label: "em desenvolvimento ativo" },
-      { value: "> 800MWp", label: "de MGD em operação no Brasil" },
+      { value: "> 800MWp", label: "de MGD em operação ou em implantação no Brasil" },
       { value: "> US$ 2 bilhões", label: "de investimento em MGD nos últimos cinco anos" },
-      { value: "Fundada em 2018", label: "escritórios no Brasil e nos Estados Unidos" },
+      { value: "Fundada em 2019", label: "escritórios no Brasil e nos Estados Unidos" },
     ],
   },
   ecosystem: {
@@ -177,7 +177,7 @@ export const pt: Content = {
     ],
     more: "Conheça o programa",
     partners:
-      "Ministério de Minas e Energia, signatário. Kromos Energia S.A., desenvolve e opera. Barocco Group, captação de recursos. TGI, infraestrutura de transmissão e distribuição.",
+      "Ministério de Minas e Energia, signatário. Kromos Energia S.A., desenvolve, opera e fornece a infraestrutura de transmissão e distribuição. Barocco Group, captação de recursos.",
     ledgerTitle: "Portfólio por estado",
     ledgerNote: "FC é o fator de capacidade médio. Máximo de 3 MWac por usina.",
     columns: { state: "Estado", mw: "MWac", plants: "Usinas", cf: "FC", utilities: "Distribuidoras" },
@@ -239,10 +239,10 @@ export const pt: Content = {
     index: "07",
     title: "Infraestrutura como serviço",
     summary:
-      "A TransAmerica Grid Infrastructure arrenda subestações, linhas e baterias. O cliente não imobiliza capital; o investidor recebe contratos de 25 anos.",
+      "A Kromos oferece arrendamento de subestações, linhas e baterias. O cliente não imobiliza capital; o investidor recebe contratos de 25 anos.",
     body: [
       "Em 2025, cerca de 20% da geração eólica e solar potencial foi cortada, um recorde, com perdas estimadas em US$ 1,25 bilhão, em grande parte sem compensação. Ao mesmo tempo, mais de 54 GW de data centers e hidrogênio verde aguardam conexão.",
-      "A resposta da TGI combina subestações arrendadas como serviço com armazenamento em baterias. A bateria carrega com o excedente solar do meio-dia e descarrega na rampa do fim da tarde, oferece capacidade firme e serviços de estabilidade à rede e adia reforços de transmissão.",
+      "A Kromos é dona das subestações e do armazenamento em baterias e os arrenda como um único serviço. As baterias armazenam o excedente de energia solar ao meio-dia e o liberam no fim da tarde, quando a demanda atinge o pico. Isso mantém o fornecimento estável, estabiliza a rede e adia a necessidade de novas linhas de transmissão.",
     ],
     stats: [
       { value: "~20%", label: "da geração renovável potencial cortada em 2025" },
@@ -337,7 +337,7 @@ export const pt: Content = {
     ],
     email: "info@kromosenergy.com",
     cta: "Fale conosco",
-    panel: { title: "Fale conosco", close: "Fechar", reach: "Contato", message: "Mensagem", maps: "Ver no mapa" },
+    panel: { title: "Fale conosco", close: "Fechar", reach: "Contato", message: "Mensagem" },
   },
   manifesto: {
     title: "Em resumo",
@@ -403,8 +403,8 @@ export const pt: Content = {
     },
   },
   privacy: {
-    draftNote: "Rascunho para revisão jurídica: este texto descreve como o site funciona hoje e ainda não foi aprovado.",
-    updated: "Rascunho, novembro de 2026",
+    draftNote: "",
+    updated: "Última atualização: novembro de 2026",
     sections: [
       {
         title: "Quem somos",

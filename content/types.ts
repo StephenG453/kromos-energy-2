@@ -153,7 +153,7 @@ export type Content = {
     email: string;
     /** Opens the side panel. */
     cta: string;
-    panel: { title: string; close: string; reach: string; message: string; maps: string };
+    panel: { title: string; close: string; reach: string; message: string };
   };
   /** About's "at a glance": a small heading, the company statement, a photo, and the key facts as label / value. */
   manifesto: {

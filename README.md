@@ -34,5 +34,5 @@ Fonte dos dados: `documentos/Kromos_National_Integration_Executive_Summary-EN_fi
 - Licença da fonte: RF Dewi é comercial (Russian Fonts). Confirmar que a licença do arquivo cobre uso web neste site.
 - Fotos profissionais: as atuais vieram dos decks (resolução até 2000px). O render de baterias em `bess.jpg` mostra marca de terceiro; substituir.
 - Formulário: criar `app/api/contact/route.ts` com Amazon SES (o domínio já tem DKIM/SPF/DMARC da SES configurados).
-- Política de privacidade: rascunho em `/privacy` (texto em `content/*.ts`, `privacy`), fora do Google (`noindex`) até a revisão jurídica. Depois de aprovado: `draftNote: ""` e remover `robots` em `app/[locale]/privacy/page.tsx`.
+- Política de privacidade: `/privacy` (texto em `content/*.ts`, `privacy`), aprovada pela revisão jurídica em novembro de 2026. Ao alterar o texto, atualizar `updated`.
 - Deploy na Vercel e apontamento do DNS (hoje na HostGator).

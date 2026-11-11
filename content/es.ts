@@ -21,7 +21,7 @@ export const es: Content = {
   hero: {
     cta: "Hable con nuestro equipo",
     image: "/images/hero-sunset.jpg",
-    headline: ["Resultados gestionables,", "generación distribuida."],
+    headline: ["Resultados escalables,", "generación distribuida."],
     tagline: ["Instalaciones de energía renovable en venta o arriendo en América del Norte, Central y del Sur.", "Arquitecta de la metodología de minigeneración distribuida de Brasil, Ley n.º 14.300/2022"],
     figures: {
       label: "Una mirada a las cifras",
@@ -29,9 +29,9 @@ export const es: Content = {
     },
     stats: [
       { value: "> 2GWp", label: "en desarrollo activo" },
-      { value: "> 800MWp", label: "de MGD en operación en Brasil" },
+      { value: "> 800MWp", label: "de MGD en operación o en implementación en Brasil" },
       { value: "> US$ 2.000 M", label: "de inversión en MGD en los últimos cinco años" },
-      { value: "Fundada en 2018", label: "oficinas en Brasil y Estados Unidos" },
+      { value: "Fundada en 2019", label: "oficinas en Brasil y Estados Unidos" },
     ],
   },
   ecosystem: {
@@ -177,7 +177,7 @@ export const es: Content = {
     ],
     more: "Conozca el programa",
     partners:
-      "Ministerio de Minas y Energía, signatario. Kromos Energia S.A., desarrolla y opera. Barocco Group, captación de recursos. TGI, infraestructura de transmisión y distribución.",
+      "Ministerio de Minas y Energía, signatario. Kromos Energia S.A., desarrolla, opera y provee la infraestructura de transmisión y distribución. Barocco Group, captación de recursos.",
     ledgerTitle: "Cartera por estado",
     ledgerNote: "FC es el factor de capacidad medio. Máximo de 3 MWac por planta.",
     columns: { state: "Estado", mw: "MWac", plants: "Plantas", cf: "FC", utilities: "Distribuidoras" },
@@ -239,10 +239,10 @@ export const es: Content = {
     index: "07",
     title: "Infraestructura como servicio",
     summary:
-      "TransAmerica Grid Infrastructure arrienda subestaciones, líneas y baterías. El cliente no inmoviliza capital; el inversionista recibe contratos a 25 años.",
+      "Kromos ofrece arrendamiento de subestaciones, líneas y baterías. El cliente no inmoviliza capital; el inversionista recibe contratos a 25 años.",
     body: [
       "En 2025, cerca del 20% de la generación eólica y solar potencial fue recortada, un récord, con pérdidas estimadas en US$ 1.250 millones, en gran parte sin compensación. Al mismo tiempo, más de 54 GW de centros de datos e hidrógeno verde esperan conexión.",
-      "La respuesta de TGI combina subestaciones arrendadas como servicio con almacenamiento en baterías. La batería se carga con el excedente solar del mediodía y se descarga en la rampa del final de la tarde, ofrece capacidad firme y servicios de estabilidad a la red y posterga refuerzos de transmisión.",
+      "Kromos es dueña de las subestaciones y del almacenamiento en baterías y los arrienda como un único servicio. Las baterías almacenan el excedente de energía solar al mediodía y lo liberan al final de la tarde, cuando la demanda alcanza su pico. Esto mantiene el suministro estable, estabiliza la red y posterga la necesidad de nuevas líneas de transmisión.",
     ],
     stats: [
       { value: "~20%", label: "de la generación renovable potencial recortada en 2025" },
@@ -337,7 +337,7 @@ export const es: Content = {
     ],
     email: "info@kromosenergy.com",
     cta: "Contáctenos",
-    panel: { title: "Contáctenos", close: "Cerrar", reach: "Contacto", message: "Mensaje", maps: "Ver en el mapa" },
+    panel: { title: "Contáctenos", close: "Cerrar", reach: "Contacto", message: "Mensaje" },
   },
   manifesto: {
     title: "En resumen",
@@ -403,8 +403,8 @@ export const es: Content = {
     },
   },
   privacy: {
-    draftNote: "Borrador para revisión legal: este texto describe cómo funciona el sitio hoy y aún no ha sido aprobado.",
-    updated: "Borrador, noviembre de 2026",
+    draftNote: "",
+    updated: "Última actualización: noviembre de 2026",
     sections: [
       {
         title: "Quiénes somos",
