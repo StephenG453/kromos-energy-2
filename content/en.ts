@@ -29,7 +29,7 @@ export const en: Content = {
     },
     stats: [
       { value: "> 2GWp", label: "In active development" },
-      { value: "> 800MWp", label: "MGD deployed or in progress across Brazil" },
+      { value: "> 800MWp", label: "MGD deployed or in development across Brazil" },
       { value: "> $2 Billion USD", label: "Investment in MGD over the last five years" },
       { value: "Founded in 2019", label: "Offices in Brazil and the United States" },
     ],

@@ -29,7 +29,7 @@ export const pt: Content = {
     },
     stats: [
       { value: "> 2GWp", label: "em desenvolvimento ativo" },
-      { value: "> 800MWp", label: "de MGD em operação ou em implantação no Brasil" },
+      { value: "> 800MWp", label: "de MGD em operação ou em desenvolvimento no Brasil" },
       { value: "> US$ 2 bilhões", label: "de investimento em MGD nos últimos cinco anos" },
       { value: "Fundada em 2019", label: "escritórios no Brasil e nos Estados Unidos" },
     ],
