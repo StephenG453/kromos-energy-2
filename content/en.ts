@@ -356,7 +356,7 @@ export const en: Content = {
     period: "2019–2026",
     cta: "Discover",
     items: [
-      { title: "National Integration", category: "Program with the Ministry · 2 GW across 667 plants", status: "In structuring", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
+      { title: "Nationally Sanctioned", category: "Delivering energy and creating jobs", status: "Economic Development", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
       { title: "Plants for lease", category: "Distributed mini-generation", status: "Broker Ready", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
       { title: "Infrastructure as a service", category: "Substations, Transmission lines and BESS", status: "Long-Term Energy Delivery", image: "/images/stock-substation.jpg", href: "/investors" },
       { title: "Engineering and construction", category: "Full EPC Services", status: "From Design to Commissioning", image: "/images/stock-crane.jpg", href: "/about" },

@@ -356,7 +356,7 @@ export const pt: Content = {
     period: "2019–2026",
     cta: "Descobrir",
     items: [
-      { title: "Integração Nacional", category: "Programa com o MME · 2 GW em 667 usinas", status: "Em estruturação", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
+      { title: "Com chancela nacional", category: "Levando energia e gerando empregos", status: "Desenvolvimento econômico", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
       { title: "Usinas para arrendamento", category: "Minigeração distribuída", status: "Prontas para corretagem", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
       { title: "Infraestrutura como serviço", category: "Subestações, linhas de transmissão e BESS", status: "Fornecimento de energia de longo prazo", image: "/images/stock-substation.jpg", href: "/investors" },
       { title: "Engenharia e construção", category: "Serviços completos de EPC", status: "Do projeto ao comissionamento", image: "/images/stock-crane.jpg", href: "/about" },

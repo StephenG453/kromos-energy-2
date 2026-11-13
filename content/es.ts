@@ -356,7 +356,7 @@ export const es: Content = {
     period: "2019–2026",
     cta: "Descubrir",
     items: [
-      { title: "Integración Nacional", category: "Programa con el Ministerio · 2 GW en 667 plantas", status: "En estructuración", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
+      { title: "Con aval nacional", category: "Llevando energía y generando empleos", status: "Desarrollo económico", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
       { title: "Plantas en arriendo", category: "Minigeneración distribuida", status: "Listas para corretaje", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
       { title: "Infraestructura como servicio", category: "Subestaciones, líneas de transmisión y BESS", status: "Suministro de energía a largo plazo", image: "/images/stock-substation.jpg", href: "/investors" },
       { title: "Ingeniería y construcción", category: "Servicios EPC completos", status: "Del diseño a la puesta en marcha", image: "/images/stock-crane.jpg", href: "/about" },
