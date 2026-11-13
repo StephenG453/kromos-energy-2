@@ -159,30 +159,6 @@ export function PageIntro({ intro }: { intro: PageIntroCopy }) {
   );
 }
 
-/** Home's short take on National Integration: the statement, the agreement in figures, a link to the full page. */
-export function IntegrationTeaser({ content, locale }: { content: Content; locale: Locale }) {
-  const { integration: s, pages } = content;
-  return (
-    <section id="integracao-resumo" aria-labelledby="integracao-teaser-title" className="dark scroll-mt-16 bg-night text-canvas" data-tone="dark">
-      <div className={`${wrap} pt-[calc(160*var(--u))]`}>
-        <Eyebrow>{pages.integration.label}</Eyebrow>
-        <h2 id="integracao-teaser-title" className="int-statement mt-[calc(24*var(--u))]" data-words>
-          <span className="int-lead">{s.lead}</span> {s.statement}
-        </h2>
-      </div>
-      <div className="figures mx-auto mt-[calc(80*var(--u))] max-w-[1600px] pb-[calc(160*var(--u))]">
-        <FigureGrid items={s.mou} dark />
-        <div className="figures-head pt-[calc(48*var(--u))]">
-          <a href={localHref(locale, "/integration")} className="btn btn-solid w-fit">
-            <span className="dot" aria-hidden />
-            {s.more}
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /** Previous / next for a [data-slider] track; setupSliders wires them and greys each out at its end. */
 function SliderArrows({ prev, next }: { prev: string; next: string }) {
   const arrow = (d: string) => (

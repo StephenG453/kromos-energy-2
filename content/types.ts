@@ -91,8 +91,6 @@ export type Content = {
     mou: Stat[];
     /** chip: the short tag on the map that opens the pillar's dialog. */
     pillars: { title: string; value: string; text: string; chip: string }[];
-    /** Home teaser's link to the full program page. */
-    more: string;
     partners: string;
     nocChip: string;
     close: string;

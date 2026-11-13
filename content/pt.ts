@@ -175,7 +175,6 @@ export const pt: Content = {
         chip: "12 subestações",
       },
     ],
-    more: "Conheça o programa",
     partners:
       "Ministério de Minas e Energia, signatário. Kromos Energia S.A., desenvolve, opera e fornece a infraestrutura de transmissão e distribuição. Barocco Group, captação de recursos.",
     ledgerTitle: "Portfólio por estado",
@@ -358,7 +357,7 @@ export const pt: Content = {
     cta: "Descobrir",
     items: [
       { title: "Integração Nacional", category: "Programa com o MME · 2 GW em 667 usinas", status: "Em estruturação", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
-      { title: "Usinas para arrendamento", category: "Minigeração distribuída · 56 projetos", status: "Prontos para corretagem", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
+      { title: "Usinas para arrendamento", category: "Minigeração distribuída", status: "Prontas para corretagem", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
       { title: "Infraestrutura como serviço", category: "Subestações, linhas de transmissão e BESS", status: "Fornecimento de energia de longo prazo", image: "/images/stock-substation.jpg", href: "/investors" },
       { title: "Engenharia e construção", category: "Serviços completos de EPC", status: "Do projeto ao comissionamento", image: "/images/stock-crane.jpg", href: "/about" },
       { title: "Energia por assinatura", category: "Clientes off-takers · Mais de 300 usinas em 11 estados", status: "Economia com autoprodução", image: "/images/stock-aerial-rows.jpg", href: "/about" },
