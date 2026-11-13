@@ -86,8 +86,8 @@ export const pt: Content = {
     stats: [
       { value: "43 GW", label: "em uso, ante 17 MW em 2015" },
       { value: "5 para 1", label: "proporção instalada entre geração distribuída e centralizada" },
-      { value: "20% TIR", label: "retorno-alvo dos investimentos" },
-      { value: "> 54 GW", label: "previstos para implantação" },
+      { value: "> 20% TIR", label: "retorno-alvo dos investimentos" },
+      { value: "> 54 GW", label: "previstos para implantação no país" },
     ],
   },
   model: {
@@ -358,10 +358,10 @@ export const pt: Content = {
     cta: "Descobrir",
     items: [
       { title: "Integração Nacional", category: "Programa com o MME · 2 GW em 667 usinas", status: "Em estruturação", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
-      { title: "Usinas para arrendamento", category: "Minigeração distribuída · 56 projetos", status: "Licenciados", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
-      { title: "Infraestrutura como serviço", category: "Subestações, linhas de transmissão e BESS", status: "US$ 220 M", image: "/images/stock-substation.jpg", href: "/investors" },
-      { title: "Engenharia e construção", category: "Serviços completos de EPC · +10.000 MW instalados", status: "80 anos", image: "/images/stock-crane.jpg", href: "/about" },
-      { title: "Energia por assinatura", category: "Clientes off-takers · +300 usinas em 11 estados", status: "Economia para as distribuidoras", image: "/images/stock-aerial-rows.jpg", href: "/about" },
+      { title: "Usinas para arrendamento", category: "Minigeração distribuída · 56 projetos", status: "Prontos para corretagem", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
+      { title: "Infraestrutura como serviço", category: "Subestações, linhas de transmissão e BESS", status: "Fornecimento de energia de longo prazo", image: "/images/stock-substation.jpg", href: "/investors" },
+      { title: "Engenharia e construção", category: "Serviços completos de EPC", status: "Do projeto ao comissionamento", image: "/images/stock-crane.jpg", href: "/about" },
+      { title: "Energia por assinatura", category: "Clientes off-takers · Mais de 300 usinas em 11 estados", status: "Economia com autoprodução", image: "/images/stock-aerial-rows.jpg", href: "/about" },
     ],
   },
   vision: {

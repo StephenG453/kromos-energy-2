@@ -86,8 +86,8 @@ export const es: Content = {
     stats: [
       { value: "43 GW", label: "en uso, frente a 17 MW en 2015" },
       { value: "5 a 1", label: "relación instalada entre generación distribuida y centralizada" },
-      { value: "20% TIR", label: "retorno objetivo de las inversiones" },
-      { value: "> 54 GW", label: "planificados para su implantación" },
+      { value: "> 20% TIR", label: "retorno objetivo de las inversiones" },
+      { value: "> 54 GW", label: "planificados para su implantación en el país" },
     ],
   },
   model: {
@@ -358,10 +358,10 @@ export const es: Content = {
     cta: "Descubrir",
     items: [
       { title: "Integración Nacional", category: "Programa con el Ministerio · 2 GW en 667 plantas", status: "En estructuración", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
-      { title: "Plantas en arriendo", category: "Minigeneración distribuida · 56 proyectos", status: "Licenciados", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
-      { title: "Infraestructura como servicio", category: "Subestaciones, líneas de transmisión y BESS", status: "US$ 220 M", image: "/images/stock-substation.jpg", href: "/investors" },
-      { title: "Ingeniería y construcción", category: "Servicios EPC completos · +10.000 MW instalados", status: "80 años", image: "/images/stock-crane.jpg", href: "/about" },
-      { title: "Energía por suscripción", category: "Clientes off-taker · +300 plantas en 11 estados", status: "Ahorro para las distribuidoras", image: "/images/stock-aerial-rows.jpg", href: "/about" },
+      { title: "Plantas en arriendo", category: "Minigeneración distribuida · 56 proyectos", status: "Listos para corretaje", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
+      { title: "Infraestructura como servicio", category: "Subestaciones, líneas de transmisión y BESS", status: "Suministro de energía a largo plazo", image: "/images/stock-substation.jpg", href: "/investors" },
+      { title: "Ingeniería y construcción", category: "Servicios EPC completos", status: "Del diseño a la puesta en marcha", image: "/images/stock-crane.jpg", href: "/about" },
+      { title: "Energía por suscripción", category: "Clientes off-taker · Más de 300 plantas en 11 estados", status: "Ahorro con autoproducción", image: "/images/stock-aerial-rows.jpg", href: "/about" },
     ],
   },
   vision: {

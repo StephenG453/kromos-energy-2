@@ -86,8 +86,8 @@ export const en: Content = {
     stats: [
       { value: "43 GW", label: "In use, up from 17 MW in 2015" },
       { value: "5 to 1", label: "Installed ratio of distributed to centralized" },
-      { value: "20% I.R.R.", label: "Targeted return on investments" },
-      { value: "> 54 GW", label: "Currently planned for deployment" },
+      { value: "> 20% I.R.R.", label: "Targeted return on investments" },
+      { value: "> 54 GW", label: "Nationally planned for deployment" },
     ],
   },
   model: {
@@ -358,10 +358,10 @@ export const en: Content = {
     cta: "Discover",
     items: [
       { title: "National Integration", category: "Program with the Ministry · 2 GW across 667 plants", status: "In structuring", image: "/images/stock-aerial-vast.jpg", href: "/integration" },
-      { title: "Plants for lease", category: "Distributed mini-generation · 56 projects", status: "Licensed", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
-      { title: "Infrastructure as a service", category: "Substations, Transmission lines and BESS", status: "US$ 220 M", image: "/images/stock-substation.jpg", href: "/investors" },
-      { title: "Engineering and construction", category: "Full EPC Services · +10,000 MW installed", status: "80 years", image: "/images/stock-crane.jpg", href: "/about" },
-      { title: "Subscription solar", category: "Off-Taker Clients · +300 plants in 11 states", status: "Carriers Leverage Savings", image: "/images/stock-aerial-rows.jpg", href: "/about" },
+      { title: "Plants for lease", category: "Distributed mini-generation · 56 projects", status: "Broker Ready", image: "/images/stock-aerial-rural.jpg", href: "#modelo" },
+      { title: "Infrastructure as a service", category: "Substations, Transmission lines and BESS", status: "Long-Term Energy Delivery", image: "/images/stock-substation.jpg", href: "/investors" },
+      { title: "Engineering and construction", category: "Full EPC Services", status: "From Design to Commissioning", image: "/images/stock-crane.jpg", href: "/about" },
+      { title: "Subscription solar", category: "Off-Taker Clients · Over 300 plants in 11 states", status: "Self Production Savings", image: "/images/stock-aerial-rows.jpg", href: "/about" },
     ],
   },
   vision: {
